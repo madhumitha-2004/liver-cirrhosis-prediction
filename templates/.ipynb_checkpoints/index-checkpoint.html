@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Liver Cirrhosis Prediction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Liver Cirrhosis Prediction Form</h2>
+    <form action="/predict" method="post">
+      <label>Age</label>
+      <input type="number" name="age" required>
+      
+      <label>Gender (1 = Male, 0 = Female)</label>
+      <input type="number" name="gender" min="0" max="1" required>
+      
+      <label>Total Bilirubin</label>
+      <input type="number" name="total_bilirubin" step="0.1" required>
+      
+      <label>Direct Bilirubin</label>
+      <input type="number" name="direct_bilirubin" step="0.1" required>
+      
+      <label>Alkaline Phosphotase</label>
+      <input type="number" name="alkaline_phosphotase" required>
+      
+      <label>Alamine Aminotransferase</label>
+      <input type="number" name="alamine_aminotransferase" required>
+      
+      <label>Aspartate Aminotransferase</label>
+      <input type="number" name="aspartate_aminotransferase" required>
+      
+      <label>Total Proteins</label>
+      <input type="number" name="total_proteins" step="0.1" required>
+      
+      <label>Albumin</label>
+      <input type="number" name="albumin" step="0.1" required>
+      
+      <label>Albumin and Globulin Ratio</label>
+      <input type="number" name="albumin_and_globulin_ratio" step="0.1" required>
+      
+      <button type="submit">Predict</button>
+    </form>
+  </div>
+</body>
+</html>
