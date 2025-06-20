@@ -90,12 +90,10 @@ http://127.0.0.1:5000/
 | Classifier | Random Forest      |
 | Tuned      | Yes (GridSearchCV) |
 
-🙋‍♀️ Author
+🙋‍♀️ Author:
 Madhumitha Chowdary
-👩‍💻 Final Year BTech CSE
-📫 GitHub Profile
 
-📚 License
+📚 License:
 This project is for academic and demonstration purposes only. Not intended for actual clinical use without validation.
 
 
