@@ -80,6 +80,14 @@ python app.py
 http://127.0.0.1:5000/
 
 📸 Screenshots
+## 📸 Screenshots
+
+### 🔹 Input Page:
+![Input Page](Screenshots/input_page.png)
+
+### 🔹 Prediction Result Page:
+![Prediction Result](Screenshots/prediction_result.png)
+
 
 
 📈 Model Performance:
